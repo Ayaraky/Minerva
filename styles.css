@@ -1,0 +1,110 @@
+body {
+
+    background: black;
+
+    color: white;
+
+    margin:0px;
+
+    font-family: "Gupter", serif;
+
+    margin-bottom: 40px;
+}
+
+header {
+border-bottom: solid 0.5px rgb(64, 209, 192);
+padding:5px;
+font-size: 18px;
+color: rgb(112, 238, 223);
+
+
+}
+
+.principal {
+
+background:rgb(139, 238, 212);
+color:black;
+padding-top: 20;
+padding-bottom: 20;
+margin-left:0%;
+display:flex;
+justify-content: center;
+
+}
+
+.parte-texto {
+
+margin-right:  5%;
+
+}
+
+h1 {
+
+font-size:30px
+
+}
+
+p {
+
+    font-size: 20px;
+    
+}
+
+h2 { 
+
+    margin-top: 10;
+    border: solid 1px #4f8e9b;
+    margin-left: 2%;
+    color: cornsilk;
+    padding-left:1%
+
+}
+.Enygma { 
+
+    margin-top: 10;
+    border: solid 1px rgb(119 81 255);
+    margin-left: 2%;
+    color: cornsilk;
+    padding-left:1%
+
+}
+.Shamam { 
+
+    margin-top: 10;
+    border: solid 1px rgb(0 196 230);
+    margin-left: 2%;
+    color: cornsilk;
+    padding-left:1%
+
+}
+.Kamaitachi { 
+
+    margin-top: 10;
+    border: solid 1px rgb(186 0 0);
+    margin-left: 2%;
+    color: cornsilk;
+    padding-left:1%
+
+}
+
+
+.categoria-videos {
+ display: flex;
+overflow-x:auto;
+gap: 0;
+
+
+}
+
+.categoria-videos img {
+opacity: 0.6;
+height: 160px;
+
+}
+
+.categoria-videos img:hover{
+opacity: 1.0;
+border: 0.5px solid white
+
+
+}
